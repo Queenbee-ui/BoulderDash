@@ -5,7 +5,7 @@ package entity;
  *
  *  Defines the state of objects fallingReaction
  *
- * @author Zachary Morello &amp;&amp; Hugo Bouillon
+ * @author Group 6 ; Reine &amp;&amp; Eliphaz &amp;&amp; Alexis  &amp;&amp; Christian
  */
 
 public enum FallingReaction {
