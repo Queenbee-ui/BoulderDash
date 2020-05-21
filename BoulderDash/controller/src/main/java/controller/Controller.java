@@ -9,7 +9,7 @@ import contract.*;
  * Makes the loop permitting the game to play,
  *
  *
- * @author plbaillet &amp;&amp; Zachary Morello &amp;&amp; Hugo Bouillon
+ * @author Reine &amp;&amp; Eliphaz &amp;&amp; Alexis  &amp;&amp; Christian
  */
 public final class Controller implements IController {
 
