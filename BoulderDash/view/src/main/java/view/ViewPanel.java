@@ -16,7 +16,7 @@ import javax.swing.JPanel;
  *
  * Draws inside the graphic interface.
  *
- * @author Zachary Morello &amp;&amp; Hugo Bouillon
+ * @author Group 6; Eliphaz &amp;&amp; Christian &amp;&amp; Reine  &amp;&amp; Alexis
  */
 
 class ViewPanel extends JPanel implements Observer {
