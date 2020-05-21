@@ -8,7 +8,7 @@ import contract.IUserOrder;
  *
  * Associates an order to the player.
  *
- * @author plbaillet &amp;&amp; Zachary Morello &amp;&amp; Hugo Bouillon
+ * @author Group 6; Eliphaz &amp;&amp; Alexis &amp;&amp; Reine  &amp;&amp; Christian
  */
 
 public class UserOrder implements IUserOrder {

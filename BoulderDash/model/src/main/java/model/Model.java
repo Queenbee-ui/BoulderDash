@@ -15,7 +15,7 @@ import entity.*;
 	 *
 	 * Creates the functionalities of the game.
 	 *
- 	* @author Group 6 ; Reine &amp;&amp; Eliphaz &amp;&amp; Alexis  &amp;&amp; Christian
+ 	* @author Group 6; Eliphaz &amp;&amp; Christian &amp;&amp; Reine  &amp;&amp; Alexis
  	*/
 
 	public final class Model extends Observable implements IModel {
