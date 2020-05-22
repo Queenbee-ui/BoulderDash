@@ -10,6 +10,7 @@ import javax.swing.*;
 
 import contract.IController;
 
+
 /**
  * The Class ViewFrame.
  *
@@ -106,6 +107,14 @@ class ViewFrame extends JFrame implements KeyListener {
 			this.getController().orderPerform(View.keyCodeToControllerOrder(e.getKeyCode()));
 		} catch (InterruptedException ex) {
 			ex.printStackTrace();
+		}
+		if(e.getKeyCode() == KeyEvent.VK_ENTER) {
+//			Fenetre fen =new Fenetre("Boulder Dash");
+//			System.out.println(" debut du jeu");
+			ViewPanel.debutJeu = true;
+			repaint();
+		}else if(e.getKeyCode() == KeyEvent.VK_ESCAPE){
+			System.exit(0);
 		}
 	}
 
