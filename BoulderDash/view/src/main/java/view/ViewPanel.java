@@ -29,9 +29,9 @@ class ViewPanel extends JPanel implements Observer {
 	Image imgfond,image;
 	public static boolean debutJeu = false;
 	/** The Constant serialVersionUID. */
-
+	
 	private static final long serialVersionUID = -998294702363713521L;
-
+	
 	/** Instantiates a new view panel.
 	 *
 	 * @param viewFrame the view frame
@@ -106,6 +106,7 @@ class ViewPanel extends JPanel implements Observer {
 		g2.drawString("Appuyez sur ENTRER pour commencer le jeu normal", 50, 390);
 		g2.drawString("Appuyez sur Echap pour quitter le jeu normal", 50, 440);
 		}else {
+		
 		graphics.clearRect(0, 0, this.getWidth(), this.getHeight());
 		ArrayList<entity.Tileset> DrawMap = this.getViewFrame().getModel().getMap();
 		BufferedImage imageTemp = null;
@@ -122,6 +123,7 @@ class ViewPanel extends JPanel implements Observer {
 		}
 
 		this.repaint();
+
 		}
 	}
 
